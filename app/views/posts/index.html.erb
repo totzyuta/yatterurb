@@ -1,1 +1,5 @@
-<h3>posts#index</h3>
+<ul>
+  <% @posts.each do |post| %>
+    <li><%= post.title %></li>
+  <% end %>
+</ul>

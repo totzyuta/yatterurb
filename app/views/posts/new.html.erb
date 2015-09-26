@@ -1,0 +1,6 @@
+<p>New YATTERU!</p>
+<%= form_for @post, action: :create do |f| %>
+  <%= f.label :title %><br />
+  <%= f.text_field :title %><br />
+  <%= submit_tag "Submit" %>
+<% end %>
